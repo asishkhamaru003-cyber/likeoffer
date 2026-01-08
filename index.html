@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>PaisaKaro - The Earning Hub</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body{
+      margin:0;
+      font-family: Arial, sans-serif;
+      background:#f4f6fb;
+    }
+    header{
+      background:linear-gradient(90deg,#5f2cfd,#8f3bfd);
+      color:#fff;
+      text-align:center;
+      padding:20px;
+    }
+    h1{margin:0;}
+    .container{
+      padding:30px;
+    }
+    .cards{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+      gap:20px;
+    }
+    .card{
+      background:#fff;
+      border-radius:15px;
+      box-shadow:0 10px 25px rgba(0,0,0,0.1);
+      padding:20px;
+    }
+    .badge{
+      background:red;
+      color:#fff;
+      padding:5px 12px;
+      border-radius:20px;
+      font-size:12px;
+      float:right;
+    }
+    .title{
+      font-size:18px;
+      font-weight:bold;
+      margin-bottom:15px;
+    }
+    .btns{
+      display:flex;
+      gap:10px;
+    }
+    .claim{
+      background:#16a34a;
+      color:#fff;
+      padding:10px;
+      border-radius:10px;
+      text-align:center;
+      flex:1;
+      cursor:pointer;
+    }
+    .refer{
+      background:#7c3aed;
+      color:#fff;
+      padding:10px;
+      border-radius:10px;
+      text-align:center;
+      flex:1;
+      cursor:pointer;
+    }
+    footer{
+      margin-top:15px;
+      font-size:12px;
+      color:#555;
+      display:flex;
+      justify-content:space-between;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>PaisaKaro</h1>
+  <p>The Earning Hub</p>
+</header>
+
+<div class="container">
+  <h2 style="text-align:center;">🔥 Live Offers 🔥</h2>
+
+  <div class="cards">
+
+    <div class="card">
+      <span class="badge">ACTIVE</span>
+      <div class="title">Royale Touché</div>
+      <div class="btns">
+        <div class="claim">Claim ₹100</div>
+        <div class="refer">Refer ₹60</div>
+      </div>
+      <footer>
+        <span>29 days left</span>
+        <span>945 claimed</span>
+      </footer>
+    </div>
+
+    <div class="card">
+      <span class="badge">ACTIVE</span>
+      <div class="title">Bajaj Finiverse</div>
+      <div class="btns">
+        <div class="claim">Claim ₹20</div>
+        <div class="refer">Refer ₹20</div>
+      </div>
+      <footer>
+        <span>29 days left</span>
+        <span>945 claimed</span>
+      </footer>
+    </div>
+
+  </div>
+</div>
+
+</body>
+</html>
